@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '8bit';
+    src: url('fonts/slkscre.ttf');
+}
+
+h1{
+    font-family: '8bit'; 
+    color: purple;
+}
