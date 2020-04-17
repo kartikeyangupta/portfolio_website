@@ -1,9 +1,66 @@
 @font-face {
-    font-family: '8bit';
-    src: url('fonts/slkscre.ttf');
+    font-family: '8bit-bold';
+    src: url('fonts/slkscreb.ttf');
+}
+@font-face{
+    font-family:'8bit-normal';
+    src: url('fonts/slkscr.ttf');
 }
 
-h1{
-    font-family: '8bit'; 
+.photo{
+    align-self: center;
+    margin-top: 10px;
+    width:200px;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-name{
+    font-family: '8bit-bold'; 
     color: purple;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+.last-name{
+    font-family: '8bit-bold'; 
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+    margin:0;    
+}
+.intro{
+    margin-top: 100px;
+    color: white;
+    font-family: '8bit-normal';
+    font-size: 20px;
+    text-align: center;
+}
+.skills-head{
+    margin-top: 200px;
+    font-family: '8bit-bold';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.skills-para{
+    margin-top: 50px;
+    font-family: '8bit-normal';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.skills-set{
+    text-align: center;
+    margin-top: 20px;
+    font-family: '8bit-normal';
+}
+.skills-heart{
+    width:30px;
+    height:30px;
+}
+
+body{
+    background-color: black;
 }
