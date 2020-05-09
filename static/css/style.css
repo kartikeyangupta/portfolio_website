@@ -6,15 +6,21 @@
     font-family:'8bit-normal';
     src: url('fonts/slkscr.ttf');
 }
-
-.photo{
-    align-self: center;
+.menu-full{
+    margin-left: 50 px;
+}
+.menu{
+    font-family: '8bit-bold';
+    color: wheat;
+    font-size: 30px;
     margin-top: 10px;
+    margin-right: 70px;
+}
+.photo{
+    margin-top: 0px;
     width:200px;
     height:300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right:70px;
 }
 .first-name{
     font-family: '8bit-bold'; 
