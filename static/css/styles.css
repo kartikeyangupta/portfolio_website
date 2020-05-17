@@ -35,11 +35,11 @@ body  {
 }
 a {
 	color:purple;
-	text-decoration:underline;
+	text-decoration:none;
 }
 a:hover {
 	color:purple;
-	text-decoration:none;
+	text-decoration:underline;
 }
 #container { 
 	width: 100%; 
@@ -141,14 +141,96 @@ a:hover {
 #Skills{
 	margin-top: 220px;
 }
-.heading_skills {
+.headings {
 	text-align: center;
 	font-size: 50px;
 }
 .Skillsimages{
-	margin-left: 0px;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.Skillsimages img:hover{
+	transform: scale(1.2);
 }
 .Skillsimage{
 	margin-top: 100px;
 	margin-left: 90px;
+}
+#Projects{
+	margin-top: 220px;
+}
+.Projectsimage{
+	margin-top: 140px;
+	margin-left: 40px;
+}
+.Projectsimages img:hover{
+	transform: scale(1.1);
+}
+#Contacts{
+	margin-top: 220px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: '8bit-bold';
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid white; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: '8bit-bold';
+  width: 100%;
+  background:white;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:purple; }
+.Contactsimages{
+	text-align: center;
+}
+.contactsimage{
+	margin-left: 40px;
+}
+.Contactsimages img:hover{
+	transform: scale(1.1);
+}
+.contactsheadings{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 230px;
+}
+.footer{
+	margin-top: 40px;
+	text-align:center;
+	color:#707070;
 }
